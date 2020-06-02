@@ -1,0 +1,23 @@
+.container {
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+#main-bio {
+    background-color: black;
+    width: 100%;
+}
+
+#bio-image {
+    margin-left: 1rem;
+}
+
+h1 {
+    color: #eee;
+    font-size: 30px;
+    padding: 0.5px;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    text-align: center;
+}
