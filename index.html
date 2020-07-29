@@ -3,11 +3,82 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Activity 1: Basic HTML Bio</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- For mobile website -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Tasneem Bhaijee Bio</title>
+    <!--Link to bootstrap css file for Bootstrap 4-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!--Latest version of j-query-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--Latest version of popper js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+    <!-- Latest version of bootstrap.js-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Theme CSS -->
+    <!-- <link href="style/css/creative.min.css" rel="stylesheet"> -->
+
+    <!-- Style Sheet -->
+    <link href="style/css/style.css" rel="stylesheet">
+
+    <!-- Bootstrap Core CSS -->
+    <!-- <link href="style/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <!-- Custom Fonts -->
+    <link href="style/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+    <header>
+        <div id="bottomHeader">
+            <div class="container-fluid my-container">
+                <nav class="navbar navbar-dark navbar-expand-sm" style="background-color: #004d80">
+                    <a class="navbar-brand" href="index.html">Home</a>
+                    <button data-toggle="collapse" data-target="#navbarToggler" type="button" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarToggler">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="page-scroll" href="#about" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="page-scroll" href="#education" class="nav-link">Education & Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="page-scroll" href="#skills" class="nav-link">Skills & Tools</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="page-scroll" href="#contact" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="header-content">
+        <div class="container">
+            <div class="row">
+                <div class="myImage text-center"></div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-12 col-lg-offset-2 text-center">
+                    <h1> Tasneem Bhaijee</h1>
+                    <hr class="light">
+                    <h5 class="intro"> CAE professional with a Masters degree in Applied Mechanics and a Data Science bootcamp graduate from Northwestern University, Chicago with the acquired skills in Data Science and Visualization.
+                    </h5>
+                    <br>
+                    <br>
+                    <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+                </div>
+            </div>
+        </div>
+    </section>
     <div class="container">
         <section id="main-bio">
             <h1> Tasneem Bhaijee's Bio</h1>
