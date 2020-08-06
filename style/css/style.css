@@ -78,12 +78,12 @@
 }
 
 .myImage {
-    width: 300px;
+    width: 270px;
     height: 300px;
     border: 1px solid white;
-    border-radius: 200px;
-    background-image: url('https://tbhaijee.github.io/Images/mypic.png');
-    background-size: 300px;
+    /* border-radius: 200px; */
+    background-image: url('https://tbhaijee.github.io/Images/pic.png');
+    background-size: 270px;
     background-repeat: no-repeat;
     background-position: 50%;
     margin-left: auto;
